@@ -8,6 +8,7 @@
 
   <PropertyGroup>
     <Version>0.4.0</Version>
+    <VersionSuffix>alpha</VersionSuffix>
     <Authors>Dmitry Shechtman</Authors>
     <Product>CHIMP</Product>
     <Copyright>Copyright © 2017 Dmitry Shechtman</Copyright>
@@ -16,7 +17,7 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Net.Chdk.Meta.Providers.Base</Title>
-    <PackageVersion>$(Version)-alpha</PackageVersion>
+    <PackageVersion>$(Version)-$(VersionSuffix)</PackageVersion>
     <PackageLicenseExpression>GPL-2.0-or-later</PackageLicenseExpression>
     <PackageIconUrl>https://raw.githubusercontent.com/CHDKUtil/CHIMP/master/tiny.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/CHDKUtil/Net.Chdk.Meta.Providers.Base</PackageProjectUrl>
